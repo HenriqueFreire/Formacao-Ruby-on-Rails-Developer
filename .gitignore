@@ -1,0 +1,24 @@
+# Nix/Direnv
+.nix-gems/
+.direnv/
+
+# Rails
+/.bundle/
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-wal
+/log/*
+/tmp/*
+/public/system
+/public/assets
+.rake_tasks~
+/storage/*
+
+# Environment files
+.env*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*~
